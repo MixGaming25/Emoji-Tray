@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.svg" alt="EmojiTray Logo" width="96" height="96" />
+  <img src="assets/logo.svg" alt="EmojiTray Logo" width="96" height="96" />
   <h1>EmojiTray</h1>
   <p>An ultra-lightweight, native dark-mode emoji picker that lives in your Windows system tray.</p>
 
@@ -40,7 +40,7 @@
 
 No Visual Studio or external SDKs required—Windows includes the C# compiler (`csc.exe`) out of the box:
 
-    git clone [https://github.com/YOUR_USERNAME/emoji-tray.git](https://github.com/YOUR_USERNAME/emoji-tray.git)
+    git clone [https://github.com/MixGaming25/Emoji-Tray.git](https://github.com/MixGaming25/Emoji-Tray.git)
     cd emoji-tray
     build.cmd
 
