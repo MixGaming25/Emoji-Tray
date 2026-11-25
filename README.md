@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="assets/logo.svg" alt="EmojiTray Logo" width="96" height="96" />
+  <img src="logo.svg" alt="EmojiTray Logo" width="96" />
   <h1>EmojiTray</h1>
   <p>An ultra-lightweight, native dark-mode emoji picker that lives in your Windows system tray.</p>
 
   <p>
-    <img src="[https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white)" alt="Platform Windows" />
-    <img src="[https://img.shields.io/badge/Language-C%23%20(.NET%204.8)-239120?style=for-the-badge&logo=csharp&logoColor=white](https://img.shields.io/badge/Language-C%23%20(.NET%204.8)-239120?style=for-the-badge&logo=csharp&logoColor=white)" alt="Language C#" />
-    <img src="[https://img.shields.io/badge/Size-~20%20KB-60CDFF?style=for-the-badge](https://img.shields.io/badge/Size-~20%20KB-60CDFF?style=for-the-badge)" alt="Size ~20 KB" />
-    <img src="[https://img.shields.io/badge/License-MIT-4ADE80?style=for-the-badge](https://img.shields.io/badge/License-MIT-4ADE80?style=for-the-badge)" alt="License MIT" />
+    <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Platform Windows" />
+    <img src="https://img.shields.io/badge/Language-C%23%20(.NET%204.8)-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="Language C#" />
+    <img src="https://img.shields.io/badge/Size-~20%20KB-60CDFF?style=for-the-badge" alt="Size ~20 KB" />
+    <img src="https://img.shields.io/badge/License-MIT-4ADE80?style=for-the-badge" alt="License MIT" />
   </p>
 </div>
 
@@ -27,7 +27,7 @@
 
 ## Quick Start
 
-1. Download **`EmojiTray.exe`** from the [Releases](https://github.com/YOUR_USERNAME/emoji-tray/releases) page.
+1. Download **`EmojiTray.exe`** from the [Releases](https://github.com/MixGaming25/Emoji-Tray/releases) page.
 2. Place it anywhere permanent (e.g., `C:\Tools\EmojiTray.exe`) and double-click to run.
 3. Click the **`^`** arrow in your Windows system tray and left-click the smiley icon to open the picker.
 4. *(Optional)* Right-click the tray icon and enable **Start with Windows**.
@@ -40,9 +40,11 @@
 
 No Visual Studio or external SDKs required—Windows includes the C# compiler (`csc.exe`) out of the box:
 
-    git clone [https://github.com/MixGaming25/Emoji-Tray.git](https://github.com/MixGaming25/Emoji-Tray.git)
-    cd emoji-tray
-    build.cmd
+```bat
+git clone https://github.com/MixGaming25/Emoji-Tray.git
+cd Emoji-Tray
+build.cmd
+```
 
 This compiles `EmojiTray.cs` into a standalone `EmojiTray.exe` (~20 KB).
 
@@ -62,4 +64,6 @@ This compiles `EmojiTray.cs` into a standalone `EmojiTray.exe` (~20 KB).
 
 Your 5 recently used emojis are saved locally in:
 
-    %APPDATA%\TrayEmojiPicker\recent.json
+```text
+%APPDATA%\TrayEmojiPicker\recent.json
+```
