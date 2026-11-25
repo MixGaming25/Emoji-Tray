@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.svg" alt="EmojiTray Logo" width="96" />
+  <img src="assets/logo.svg" alt="EmojiTray Logo" width="96" />
   <h1>EmojiTray</h1>
   <p>An ultra-lightweight, native dark-mode emoji picker that lives in your Windows system tray.</p>
 
