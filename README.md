@@ -3,11 +3,11 @@
   <h1>EmojiTray</h1>
   <p>An ultra-lightweight, native dark-mode emoji picker that lives in your Windows system tray.</p>
 
-  <p>
-    <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Platform Windows" />
-    <img src="https://img.shields.io/badge/Language-C%23%20(.NET%204.8)-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="Language C#" />
-    <img src="https://img.shields.io/badge/Size-~20%20KB-60CDFF?style=for-the-badge" alt="Size ~20 KB" />
-    <img src="https://img.shields.io/badge/License-MIT-4ADE80?style=for-the-badge" alt="License MIT" />
+<p>
+    <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4?style=flat-square" alt="Platform Windows" />
+    <img src="https://img.shields.io/badge/Language-C%23%20(.NET%204.8)-239120?style=flat-square" alt="Language C#" />
+    <img src="https://img.shields.io/badge/Size-~20%20KB-0284C7?style=flat-square" alt="Size ~20 KB" />
+    <img src="https://img.shields.io/badge/License-MIT-16A34A?style=flat-square" alt="License MIT" />
   </p>
 </div>
 
